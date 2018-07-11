@@ -7,6 +7,7 @@
 get_header(); 
 $args = array(
   'post_type' => 'films',
+  'post_status' => 'publish'
   // Several more arguments could go here. Last one without a comma.
 );
 

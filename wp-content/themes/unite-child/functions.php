@@ -1,9 +1,13 @@
 <?php 
 
 /**
- * Implement the function for get taxonomy list.
+ * Implement the function for get taxonomy list and other.
  */
 require get_stylesheet_directory() . '/inc/common-functions.php';
+/**
+ * Implement the film post shortcode
+ */
+require get_stylesheet_directory() . '/inc/shortcode.php';
 
 add_action( 'wp_enqueue_scripts', 'unite_child_enqueue_styles' );
 function unite_child_enqueue_styles() {
