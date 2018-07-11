@@ -1,5 +1,9 @@
 <?php 
 
+/**
+ * Implement the function for get taxonomy list.
+ */
+require get_stylesheet_directory() . '/inc/common-functions.php';
 
 add_action( 'wp_enqueue_scripts', 'unite_child_enqueue_styles' );
 function unite_child_enqueue_styles() {
